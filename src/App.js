@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import './App.css';
 import moment from 'moment'
 import 'moment/locale/ru'
 moment.locale('ru')
+
 
 const prettyDateTimePretty = (CorrectDateTime) => {
 
